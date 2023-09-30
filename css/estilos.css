@@ -1,0 +1,404 @@
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+
+.container-fluid {
+    background-color: rgb(0, 0, 0);
+    height: 125px;
+}
+
+
+
+.navbar-light .navbar-brand {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar-nav a:hover {
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    background-color: #000000;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+    object-fit: cover;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item figure {
+    overflow: hidden;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+.item h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.item .Buscado img {
+    width: 20%;
+    height: 200px;
+}
+
+.item .Nov img {
+    width: 20%;
+    height: 200px;
+}
+
+#contenedor_productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+    font-size: medium;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-producto {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+
+
+}
+
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+img {
+    width: 100%;
+}
+
+.p-recio {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.dest {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+}
+
+.dest h2 {
+    color: #f6f6f6;
+    background-color: #000000;
+}
+
+.destacados {
+    margin-top: 25px;
+}
+
+.D-estacados {
+    height: 475px;
+}
+
+.Nov-edades {
+    margin-top: 25px;
+    height: 475px;
+}
+
+.nov {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.nov h2 {
+    color: #f6f6f6;
+    background-color: #000000;
+}
+
+a .Ver {
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    width: 100%;
+}
+
+.nov:hover {
+    color: antiquewhite;
+}
+
+.Novedades {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Mas-buscado {
+    margin-top: 25px;
+    height: 475px;
+}
+
+.Mas-buscado .masBuscado {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.Mas-buscado .masBuscado h2 {
+    background-color: #000000;
+}
+
+.masBuscado:hover {
+    color: #f6f6f6;
+}
+
+.B-uscado {
+    margin-top: 60px;
+}
+
+.form-control {
+    display: block;
+    width: 400px;
+    height: 35px;
+    /* padding: 0.375rem 0.75rem; */
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #232129;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+footer .c-ontacto {
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fafffd;
+    font-family: "Oswald", sans-serif;
+}
+
+footer .col {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .alta-gama {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fafffd;
+    font-family: "Oswald", sans-serif;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    color: #fafffd;
+    font-family: "Oswald", sans-serif;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    color: #fafffd;
+    font-family: "Oswald", sans-serif;
+}
+
+.fa-brands {
+    font-weight: 400;
+    color: #fafffd;
+}
+
+footer a {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+}
+
+footer {
+    padding: 40px 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.col img {
+    height: 100px;
+    width: 200px;
+    background-color: #fafffd;
+}
+
+#newsletter button {
+    border-radius: 4px;
+    white-space: nowrap;
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 0.125em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter p {
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #fafffd;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter h3 {
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: #fafffd;
+}
+
+#newsletter {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(255, 11, 11);
+    padding: 40px 80px;
+    margin: 40px 0;
+}
+
+#foto-container .column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+    font-size: medium;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#foto-container .column .iten img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+    object-fit: cover;
+}
+
+#foto-container .column .iten .info-product {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 10px;
+}
+
+#foto-container .column .iten .info-product button {
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+
+#foto-container .column .iten:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+#foto-continer .column .info-product .phantom h2 {
+    font-size: 10px;
+}
+
+.iten h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
